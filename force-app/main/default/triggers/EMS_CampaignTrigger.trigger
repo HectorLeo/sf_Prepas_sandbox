@@ -14,4 +14,4 @@ trigger EMS_CampaignTrigger on Campaign (before insert, before update) {
     EMS_CampaignTriggerHandler handlerCampaign = new EMS_CampaignTriggerHandler();
     handlerCampaign.campaniaHandlerTrigger(trigger.new, trigger.old, trigger.newMap, trigger.oldMap, trigger.operationType);
 }
-//prueba
+//prueba d
